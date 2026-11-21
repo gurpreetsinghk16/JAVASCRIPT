@@ -8,5 +8,12 @@
 
 // document.querySelector(".box").style.backgroundColor = "red"
 
-let b = document.getElementsByTagName("div");
-console.log(b)
+// let b = document.getElementsByTagName("div");
+// console.log(b)
+
+let button = document.getElementById("btn")
+
+button.addEventListener("dblclick", ()=>{
+    // alert("i was clicked yehh")
+    document.querySelector(".box").innerHTML = "yeh you were clicked"}
+)
